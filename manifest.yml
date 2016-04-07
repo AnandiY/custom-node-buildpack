@@ -19,6 +19,12 @@ url_to_dependency_map:
 
 dependencies:
   - name: node
+    version: 0.10.33
+    uri: https://nodejs.org/dist/v0.10.33/node-v0.10.33-linux-x64.tar.gz
+    md5: 10eb71941ea92ac61aa470396a590ddd
+    cf_stacks:
+      - cflinuxfs2
+  - name: node
     version: 0.10.43
     uri: https://pivotal-buildpacks.s3.amazonaws.com/concourse-binaries/node/node-0.10.43-linux-x64.tgz
     md5: 10eb71941ea92ac61aa470396a590ddd
