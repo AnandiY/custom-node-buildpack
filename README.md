@@ -7,6 +7,10 @@ This is based on the [Heroku buildpack] (https://github.com/heroku/heroku-buildp
 
 Additional documentation can be found at the [CloudFoundry.org](http://docs.cloudfoundry.org/buildpacks/).
 
+Disclaimer : This is a build pack provided by Cloud Foundry for NodeJs.
+
+Have added the Node version 0.10.33 to the manifest.yml file.
+
 ## Usage
 
 This buildpack will get used if you have a `package.json` file in your project's root directory.
